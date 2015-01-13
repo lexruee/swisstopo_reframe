@@ -61,8 +61,8 @@ module SwisstopoReframe
     def request
       uri_string = request_url + '?' + query_string
       uri = URI(uri_string)
-      json_string = Net::HTTP.get_response(uri)
-      json_string
+      response = Net::HTTP.get_response(uri)
+      response
     end
 
     private
