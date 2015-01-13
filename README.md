@@ -73,23 +73,6 @@ Other valid options for given and need are:
   * :ch1903
   * :'ch1903+'
 
-If you wish you can also specify a format in which the converted point should be returned.
-Valid options for format are:
- 
- * :json     (default)
- * :geojson
- 
-The response using ```:json``` looks like as follows:
-
-```json
-{"easting": "599999.7270399226", "northing": "199999.61419550685", "altitude": "500.3777916841209"}
-```
-
-The response using ```:geojosn``` looks like as follows:
-
-```json
-{ "type": "Point", "coordinates": [599999.7270399226, 199999.61419550685, 500.3777916841209] }
-```
 
 ## Contributing
 
