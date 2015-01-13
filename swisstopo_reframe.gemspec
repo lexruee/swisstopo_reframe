@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Alexander Rueedlinger"]
   spec.email         = ["a.rueedlinger@gmail.com"]
   spec.summary       = %q{A simple wrapper for the Swisstopo Reframe REST API to convert coordinate points into different coordinate systems.}
-  spec.description   = %q{swisstopo_reframe is a wrapper for the wisstopo Reframe REST API to convert coordinate points into different coordinate systems.}
-  spec.homepage      = ""
+  spec.description   = %q{swisstopo_reframe is a wrapper for the Swisstopo Reframe REST API to convert coordinate points into different coordinate systems.}
+  spec.homepage      = "https://github.com/lexruee/swisstopo_reframe"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
