@@ -28,13 +28,13 @@ Or install it yourself as:
 
 ## Usage
 
-To convert a point in a coordinate system A into a coordinate system B we need to know the following facts:
+To convert a point from a coordinate system A into a coordinate system B we need to know the following facts:
  
  * What kind of point is given? 
  * What kind of point do I need?
- * What's the value of the northing component of the point?
- * What's the value of the easting component of the point?
- * What's the value of the altitude component of the point? (Optional)
+ * What's the value of the northing component?
+ * What's the value of the easting component?
+ * What's the value of the altitude component? (Optional)
     
 So here is an example how we can convert a WGS84 point (gps) to a CH1903 point:
 ```ruby
