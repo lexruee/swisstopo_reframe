@@ -2,9 +2,7 @@
 
 The ```SiwsstopoReframe``` Rubygem provides a simple client for the [Swisstopo Reframe REST API](http://www.swisstopo.admin.ch/internet/swisstopo/en/home/products/software/products/m2m.html).
 
-The basic idea behind this client is to provide a DSL for converting coordinates into different coordinate systems.
-
-```SiwsstopoReframe``` supports all conversions that are provided by [Swisstop Reframe REST API](http://www.swisstopo.admin.ch/internet/swisstopo/en/home/products/software/products/m2m.html).
+The basic idea behind this client is to provide a tiny DSL for converting coordinates into different coordinate systems.
 
 The following conversions are possible:
 
@@ -32,11 +30,11 @@ Or install it yourself as:
 
 To convert a point in a coordinate system A into a coordinate system B we need to know the following facts:
 
-    * What kind of point is ```given```? 
-    * What kind of point do I ```need```?
-    * What's the value of the ```northing``` component of the point?
-    * What's the value of the ```easting``` component of the point?
-    * What's the value of the ```altitude``` component of the point? (Optional)
+    * What kind of point is `given`? 
+    * What kind of point do I `need`?
+    * What's the value of the `northing` component of the point?
+    * What's the value of the `easting` component of the point?
+    * What's the value of the `altitude` component of the point? (Optional)
     
 So here is an example how we can convert a WGS84 point (gps) to a CH1903 point:
 ```ruby
